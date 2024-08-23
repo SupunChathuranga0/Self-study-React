@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Main from './Components/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div>
+      Testing App
+      <h1>Supun</h1>
+      </div>
+      <p>Supun Chathuranga</p>
+      <Main />
+      <Main />
+      <Main />
+      <Main />
+      <Main />
+      </>
   );
 }
-
+//shit+Alt+arrowkey can paste lot o copies one by one
 export default App;
