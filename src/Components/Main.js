@@ -6,7 +6,7 @@
 //     city: 'Kurungala',
 // };
 
-function Main({children, name, city, position}){
+function Main({ name, city, position}){
     // const {city} = myobj;
     return(
         <div>
@@ -18,8 +18,14 @@ function Main({children, name, city, position}){
                 <li>{city}</li>
                 <li>windoUbuntuws</li>
                 <li>Mac OS</li>
+
+
+                
+                {/* <li>{country}</li>
+                <li>{age}</li>
+                <li>{mobile}</li> */}
             </ul>
-            {children}
+
         </div>
     );
 }
