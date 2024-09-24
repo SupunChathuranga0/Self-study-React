@@ -10,11 +10,12 @@ function App() {
       <h1>Supun</h1>
       </div>
       <p>Supun Chathuranga</p>
-      <Main />
-      <Main />
-      <Main />
-      <Main />
-      <Main />
+      <Main name="chathuranga" city="Kurunegala" position="UI Developer">
+        <h5>Checking new react App</h5>
+      </Main>
+      <Main name="Supun" city="Kurunegala" position="flutter Developer" />
+      <Main name="Ravindu" city="Kurunegala" position="Python Developer" />
+      <Main name="Kasun" city="Kurunegala" position="Devops Engineer" />
       </>
   );
 }
